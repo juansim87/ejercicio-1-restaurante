@@ -1,0 +1,23 @@
+.concept {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  &__article {
+    width: 30%;
+    height: 50%;
+    margin-top: 80px;
+    background-color: $secundary;
+    h1,
+    p {
+      color: white;
+    }
+  }
+
+  img {
+    position: absolute;
+    width: 50px;
+  }
+}
