@@ -6,18 +6,26 @@
   position: relative;
 
   &__article {
-    width: 30%;
+    width: 600px;
     height: 50%;
     margin-top: 80px;
     background-color: $secundary;
-    h1,
-    p {
+    padding: 100px;
+
+
+    &--title{
       color: white;
+    }
+    &--text{
+      color: white;
+      text-align: justify;
+    }
+
+    &--img {
+      position: absolute;
+      width: 200px;
     }
   }
 
-  img {
-    position: absolute;
-    width: 50px;
-  }
+   
 }
