@@ -4,13 +4,15 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  background-image: url(../../pics/WallpaperDog-20474451.jpg) cover;
 
   &__article {
     width: 600px;
     height: 50%;
     margin-top: 80px;
     background-color: $secundary;
-    padding: 100px;
+    padding: 80px;
+    
 
 
     &--title{

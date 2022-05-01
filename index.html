@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  
   <!--HEADER CON NAVEGACION-->
   <header>
     <nav id="nav">
@@ -26,6 +27,7 @@
       </ul>
     </nav>
   </header>
+  
   <!--HOME-->
   <section id="home" class="home">
     <p class="home__texto-cabecera">Descubre</p>
@@ -37,6 +39,7 @@
     </div>
     <p class="home__titulo-secundario">We are open</p>
   </section>
+  
   <!--CONCEPTO-->
   <section id="concept" class="concept">
     <article class="concept__article">
@@ -65,19 +68,97 @@
 
   </section>
 
-
-  <!-- 
+<!--FOTOS-->
   <section id="pics">
-    <img src="./pics/restaurante.jpg" />
+    <div class="pics__photos"></div>
+    <img src="" alt="" class="pics_photos--1"/>
+    <img src="" alt="" class="pics_photos--2"/>
+    <img src="" alt="" class="pics_photos--3"/>
+    <img src="" alt="" class="pics_photos--4"/>
+    <img src="" alt="" class="pics_photos--5"/>
+    <img src="" alt="" class="pics_photos--6"/>
+    <img src="" alt="" class="pics_photos--7"/>
   </section>
+
+
+<!--CARTA-->
+
   <section id="menu">
-    <h1 class="menu__title">Carta</h1>
-    <div class="servicios">
-      <span>Desayunos</span>
-      <span>Carta</span>
-      <span>Cocktails</span>
+    <div class="menu__head">
+      <h1 class="menu__head--title">Carta</h1>
+      <div class="menu__head--services">
+      <p>Desayunos</p>
+      <p>Carta</p>
+      <p>Cocktails</p>
+      </div>
     </div>
+    <div class="menu__products"> 
+      <div class="menu__products--carta">
+        <div class="menu__products--carta__dulces">
+          <h3>Dulces</h3>
+          <div class="menu__products--carta__dulces--1">
+            <p class="menu__products--carta__dulces--1__name">Croissant</p>
+            <p class="menu__products--carta__dulces--1__price">1.40</p>
+          </div>
+          <div class="menu__products--carta__dulces--2">
+            <p class="menu__products--carta__dulces--2__name">Croissant a la plancha</p>
+            <p class="menu__products--carta__dulces--2__price">1.60</p>
+          </div>
+          <div class="menu__products--carta__dulces--3">
+            <p class="menu__products--carta__dulces--3__name">Napolitana de chocolate</p>
+            <p class="menu__products--carta__dulces--3__price">1.40</p>
+          </div>
+          <div class="menu__products--carta__dulces--4">
+            <p class="menu__products--carta__dulces--4__name">Tostada francesa con helade de vainilla y frutos rojos</p>
+            <p class="menu__products--carta__dulces--4__price">4.50</p>
+          </div>
+          <div class="menu__products--carta__dulces--5">
+            <p class="menu__products--carta__dulces--5__name">Tortitas con nata y sirope de chocolate</p>
+            <p class="menu__products--carta__dulces--5__price">4.50</p>
+          </div>
+          <div class="menu__products--carta__dulces--6">
+            <p class="menu__products--carta__dulces--6__name">Gofre casero con helado y sirope</p>
+            <p class="menu__products--carta__dulces--6__price">4.90</p>
+          </div>
+          <div class="menu__products--carta__dulces--7">
+            <p class="menu__products--carta__dulces--7__name">Tarta Carrot Cake</p>
+            <p class="menu__products--carta__dulces--7__price">4.50</p>
+          </div>
+          <div class="menu__products--carta__dulces--8">
+            <p class="menu__products--carta__dulces--8__name">Tarta Red Velvet</p>
+            <p class="menu__products--carta__dulces--8__price">4.50</p>
+          </div>
+          <div class="menu__products--carta__dulces--9">
+            <p class="menu__products--carta__dulces--9__name">Tarta Oreo Cake</p>
+            <p class="menu__products--carta__dulces--9__price">4.50</p>
+          </div>
+          <div class="menu__products--carta__dulces--10">
+            <p class="menu__products--carta__dulces--10__name">Tarta Doble Chocolate</p>
+            <p class="menu__products--carta__dulces--10__price">4.50</p>
+          </div>
+          <div class="menu__products--carta__dulces--11">
+            <p class="menu__products--carta__dulces--11__name">Crepes con chocolate</p>
+            <p class="menu__products--carta__dulces--11__price">4.50</p>
+          </div>
+          
+<!--REPETIMOS EL ESQUEMA EN TODOS LOS APARTADOS DE LA CARTA-->          
+        </div>
+        <div class="menu__products--carta__desayunos"></div>
+        <div class="menu__products--carta__zumos"></div>
+        <div class="menu__products--carta__milkshakes"></div>
+      </div>
+      <div class="menu__products--carta">
+        <div class="menu__products--carta__salados"></div>
+        <div class="menu__products--carta__baguette"></div>
+        <div class="menu__products--carta__smoothies"></div>
+        <div class="menu__products--carta__tes"></div>
+      </div>
+    </div>
+    <button class="menu__btn btn">Ver la carta de desayunos</button>
   </section>
+
+
+  <!--RESERVAS-->
   <section id="reservation">
     <h1 class="reservation__title">Reservas</h1>
     <form autocomplete="off" action="https://reqres.in/api/users" method="post" class="reservation__info">
@@ -125,26 +206,104 @@
       <span class="restaurant__info--adress">de 07:30 a 01:30</span>
     </aside>
   </section>
-  <section id="blog"></section>
+  
+  <!--BLOG-->
+  <section id="blog">
+      <h1 class="blog__title">Blog</h1>
+      <div class="blog__entry">
+        <p class="blog__entry--head">Mozza Bar</p>
+        <!--Quizás un div desde aquí...-->
+        <p class="blog__entry--date"></p>
+        <h3 class="blog__entry--title">Mozzar Bar abre una nnueva terraza de verano en Bombay Lounge</h3>
+        <p class="blog__entry--info">Este viernes 6 de junio ;pzza Bar estrena una nueva terraza en Bombay Lounge (Recinto...</p>
+        <!--...hasta aquí-->
+        <div class="blog__entry--social">
+          <div class="blog__entry--social__user">
+            <img src="" alt="" class="blog__entry--social__user--logo">
+            <p class="blog__entry--social__user--name">admin</p>
+          </div>
+          <div class="blog__entry--social__comments">
+            <img src="" alt="" class="blog__entry--social__comments--logo">
+            <p class="blog__entry--social__comments--number">0</p>
+          </div>
+          <div class="blog__entry--social__likes">
+            <img src="" alt="" class="blog__entry--social__likes--logo">
+            <p class="blog__entry--social__likes--number">1</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog__entry">
+        <p class="blog__entry--head">Mozza Bar</p>
+        <!--Quizás un div desde aquí...-->
+        <p class="blog__entry--date">17/06/2014</p>
+        <h3 class="blog__entry--title">Promoción especial: Tarta&Cocktail 6,90€</h3>
+        <!--...hasta aquí-->
+        <div class="blog__entry--social">
+          <div class="blog__entry--social__user">
+            <img src="" alt="" class="blog__entry--social__user--logo">
+            <p class="blog__entry--social__user--name">admin</p>
+          </div>
+          <div class="blog__entry--social__comments">
+            <img src="" alt="" class="blog__entry--social__comments--logo">
+            <p class="blog__entry--social__comments--number">0</p>
+          </div>
+          <div class="blog__entry--social__likes">
+            <img src="" alt="" class="blog__entry--social__likes--logo">
+            <p class="blog__entry--social__likes--number">0</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog__entry">
+        <p class="blog__entry--head">Mozza Bar</p>
+        <!--Quizás un div desde aquí...-->
+        <p class="blog__entry--date"></p>
+        <h3 class="blog__entry--title">Mozzar Bar: Brunch 2 de marzo</h3>
+        <!--...hasta aquí-->
+        <div class="blog__entry--social">
+          <div class="blog__entry--social__user">
+            <img src="" alt="" class="blog__entry--social__user--logo">
+            <p class="blog__entry--social__user--name">admin</p>
+          </div>
+          <div class="blog__entry--social__comments">
+            <img src="" alt="" class="blog__entry--social__comments--logo">
+            <p class="blog__entry--social__comments--number">0</p>
+          </div>
+          <div class="blog__entry--social__likes">
+            <img src="" alt="" class="blog__entry--social__likes--logo">
+            <p class="blog__entry--social__likes--number">1</p>
+          </div>
+        </div>
+      </div>
+     
+
+
+      <button class="blog__btn btn">Ver todas las entradas</button>
+  </section>
+  </section>
+
+
+<!--CONTACTO-->
 
   <section id="contact"></section>
   <div class="contact__pt1">
-    <img src="./pics/mozzabar logo blanco.png" alt="mozzalogo">
+    <img src="" alt="mozzalogo">
 
     <h1 class="contact__title1">Ven cuando quieras</h1>
     <div class="contact__adress">
-      <img src="./pics/map-svgrepo-com.svg" alt="dirección" class="icon icon--map">
+      <img src="" alt="dirección" class="icon icon--map">
       <span class="contact__adress--street">C/ Conde de Peñalver 64</span>
       <span class="contact__adress--street">28006 - Madrid</span>
     </div>
 
     <div class="contact__number">
-      <img src="./pics/smartphone-svgrepo-com.svg" alt="telefono" class="icon icon--phone">
+      <img src="" alt="telefono" class="icon icon--phone">
       <span class="contact__adress--number">910 258 327</span>
     </div>
 
     <div class="contact__mail">
-      <img src="./pics/mail-svgrepo-com.svg" alt="mail" class="icon icon--mail">
+      <img src="" alt="mail" class="icon icon--mail">
       <span class="contact__adress--mail">hola@mozzabar.es</span>
     </div>
   </div>
@@ -158,6 +317,8 @@
     </div>
   </div>
 
+
+  <!--FOOTER-->
   <footer class="footer">
     <div class="links">
       <h2 class="footer__links">Enlaces de interés</h2>
@@ -180,11 +341,11 @@
 
     <p class="footer__copyright">©2017. Todos los derechos reservados</p>
     <div class="footer__icons-container">
-      <img src="./pics/facebook-svgrepo-com.svg" alt="facebook icon" class="icon icon--facebook">
-      <img src="./pics/instagram-brands.svg" alt="instagram icon" class="icon icon--instagram">
+      <img src="" alt="facebook icon" class="icon icon--facebook">
+      <img src="" alt="instagram icon" class="icon icon--instagram">
 
     </div>
-  </footer> -->
+  </footer>
 
 
   <div class="scroll-up"><a href="#nav">^</a></div>
